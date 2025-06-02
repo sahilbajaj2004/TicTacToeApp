@@ -68,7 +68,7 @@ export default function TicTacToe() {
                             <TouchableOpacity
                                 key={j}
                                 style={styles.cell}
-                                onPress={() => handlePress(i, j)}
+                                onPress={( ) => handlePress(i, j)}
                             >
                                 <Text style={styles.cellText}>{cell}</Text>
                             </TouchableOpacity>
